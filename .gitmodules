@@ -1,0 +1,6 @@
+[submodule "object_pose_estimation"]
+	path = object_pose_estimation
+	url = git@github.com:Geranos-Drone/object_pose_estimation.git
+[submodule "geranos_visual_servoing"]
+	path = geranos_visual_servoing
+	url = git@github.com:Geranos-Drone/geranos_visual_servoing.git
