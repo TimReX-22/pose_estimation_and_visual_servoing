@@ -5,7 +5,7 @@
  
 ## Object Pose Esimation: OpenPifPaf, OpenCV, Python
 
-The pose estimation, optimized for long vertical poles, is done in a two step approach. First seven keypoints are detected in the image recorded onboard the drone using OpenPifPaf. We trained the OpefPifPaf model on a costum annotated dataset of 671 images.
+The pose estimation, optimized for long vertical poles, is done in a two step approach. First seven keypoints are detected in the image recorded onboard the drone using OpenPifPaf. We trained the OpefPifPaf model on a costum annotated dataset of 671 images using [LabelStudio](https://github.com/heartexlabs/label-studio). Since OpenPifPaf expects all annotations in COCO format, we created a conversion script. This scirpt, as well as the custom plugin for OpenPifPaf, are available [here](https://github.com/Geranos-Drone/BT_Vision/tree/master). An example of inference using OpenPifPaf:
 
 <img src="./images/keypoints.png" alt="keypoints" width="300"/>
 
