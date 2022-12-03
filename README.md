@@ -1,3 +1,12 @@
  # Object Pose Estimation & Visual Servoing
  
- This Repo contains the source code used to run the object pose estimation network and the visual servoing algorithm for the Geranos Drone.
+ This Repo contains the source code used to run the object pose estimation model and the visual servoing algorithm for the Geranos Drone. 
+ 
+ 
+## Object Pose Esimation: OpenPifPaf, OpenCV, Python
+
+The pose estimation, optimized for long vertical poles, is done in a two step approach. First seven keypoints are detected in the image recorded onboard the drone using OpenPifPaf. Then the seven keypoints are used for the PnP Algorithm, where we used the OpenCV implementation.
+
+## Visual Servoing: C++, ROS
+
+We used a position based visual servoing approach to calculate position and orientation commands for the controller. First position and orientation errors are calculated using the pose of the UAV and the estimated pose of the object.
