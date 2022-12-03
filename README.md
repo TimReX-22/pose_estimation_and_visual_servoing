@@ -1,6 +1,6 @@
  # Object Pose Estimation & Visual Servoing
  
- This Repo contains the source code used to run the object pose estimation model and the visual servoing algorithm for the Geranos Drone. 
+ This Repo contains the source code used to run the object pose estimation model and the visual servoing algorithm for the [Geranos Drone](https://github.com/Geranos-Drone). The pose estimation is based on the [OpenPifPaf](https://github.com/vita-epfl/openpifpaf) human pose estimation model. 
  
  
 ## Object Pose Esimation: OpenPifPaf, OpenCV, Python
